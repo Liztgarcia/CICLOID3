@@ -1,0 +1,9 @@
+CREATE DATABASE scopusdb;
+
+CREATE TABLE authors (
+   id INT(11) NOT NULL AUTO_INCREMENT,
+   first_name VARCHAR(50) NOT NULL,
+   last_name VARCHAR(50) NOT NULL,
+   affiliation VARCHAR(255),
+   PRIMARY KEY (id)
+);
